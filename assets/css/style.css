@@ -20862,6 +20862,12 @@ a.text-primary-hover:hover, button.text-primary-hover:hover {
     border-bottom: 0;
     padding: 0;
   }
+  .why-choose .card-title,  .why-parent .card-title{
+    font-size: 16px;
+  }
+  .why-choose .card .card-image-scale img, .why-parent .card .card-image-scale img {
+    width: 75px;}
+
 }
 .sidebar.navbar-expand-md .sidebar-content {
   padding: 0 1rem 1rem;
@@ -22280,5 +22286,3 @@ html[dir=rtl] .choices__input {
   display: none !important;
 }
 
-/*User CSS*/
-/*# sourceMappingURL=style.css.map */
