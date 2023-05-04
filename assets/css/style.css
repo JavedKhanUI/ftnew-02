@@ -5243,6 +5243,21 @@ textarea.form-control-lg {
   margin-bottom: 0;
   color: var(--bs-card-subtitle-color);
 }
+.card-footer.bg-200{
+  background: #FFAF60;
+}
+.card-footer.bg-400{
+  background: #46AADC;
+}
+.card-footer.bg-600 {
+  background: #76BEBA;
+}
+.card-footer.bg-800 {
+  background: #7192BD;
+}
+.why-parent .card-footer {
+  height: 83px;
+}
 
 .card-text:last-child {
   margin-bottom: 0;
@@ -5364,6 +5379,7 @@ textarea.form-control-lg {
   .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
+  
 }
 
 .accordion {
@@ -20863,10 +20879,14 @@ a.text-primary-hover:hover, button.text-primary-hover:hover {
     padding: 0;
   }
   .why-choose .card-title,  .why-parent .card-title{
-    font-size: 16px;
+    font-size: 16px; min-height: 39px;
   }
   .why-choose .card .card-image-scale img, .why-parent .card .card-image-scale img {
     width: 75px;}
+
+  .why-parent .card-footer {
+      height: auto;
+  }
 
 }
 .sidebar.navbar-expand-md .sidebar-content {
