@@ -19859,12 +19859,6 @@ textarea.form-control-lg {
   background-color: var(--bs-primary);
 }
 
-.mainBanner{
-  background-image:url(/assets/images/global/bg-kid-2.jpg); 
-  background-position: center; 
-  background-size: cover;
-}
-
 .progress {
   position: relative;
   overflow-x: visible;
@@ -20396,9 +20390,6 @@ small,
 @media (max-width: 575.98px) {
   .nav-search .dropdown-menu {
     width: 100%;
-  }
-  .mainBanner{
-    background-image:url(/assets/images/global/bg-kid-min.jpeg); 
   }
   .ourPresence img {
     width: 60px;}
