@@ -97,13 +97,15 @@
 <style>
 .mainBanner{
   background-image:url(https://javedkhanui.github.io/ftnew-02/assets/images/global/bg-kid-2.jpg); 
-  background-position: center; 
-  background-size: cover;
+  background-position: center !important; 
+  background-size: cover !important;
 }
 @media (max-width: 575.98px) {
   .mainBanner{
-    background-image:url(https://javedkhanui.github.io/ftnew-02/assets/images/global/bg-kid-min.jpeg); 
+	background: linear-gradient(90deg, rgb(0 0 0) 0%, rgb(0 0 0 / 61%) 43%, rgba(255,255,255,0) 100%), url(https://javedkhanui.github.io/ftnew-02/assets/images/global/bg-kid-min.jpeg);
   }
+  .mainBanner h1 {
+    font-size: 18px;}
 }
 </style>
 <!-- Header START -->
@@ -168,12 +170,10 @@
 	
 <!-- =======================
 Main Banner START -->
-<section class="mainBanner pt-0 position-relative overflow-hidden h-200px h-sm-600px h-lg-700px rounded-top-4 mx-2 mx-md-4">
-	<div class="bg-overlay bg-dark opacity-5"></div>
-		
+<section class="mainBanner py-0 position-relative overflow-hidden h-200px h-sm-600px h-lg-700px rounded-top-4 mx-2 mx-md-4">		
 	<div class="container z-index-9 position-relative h-100">
 		<div class="d-flex justify-content-start align-items-end h-100 d-block d-sm-none">
-			<h1 class="h3 text-start text-white ">Start Your  <br> Own Preschool With <span class="text-warning"> <br> 100% Success Rate</span></h1>
+			<h1 class="h3 text-start text-white mb-4">Start Your  <br> Own Preschool With <span class="text-warning"> <br> 100% Success Rate</span></h1>
 		</div>
 		<div class="d-none d-sm-block">
 			<div class="row py-0 py-md-5 mt-md-5 justify-content-end align-items-center text-center text-sm-start">
